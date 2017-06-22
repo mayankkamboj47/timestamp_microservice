@@ -1,0 +1,11 @@
+{
+  "name": "timestamp-microservice",
+  "description": "Freecodecamp timestamp microservice by mayank",
+  "main": "app.js",
+  "scripts": {
+    "start": "app server.js"
+  },
+  "dependencies": {
+    "express": "~4.9.8"
+  }
+}
