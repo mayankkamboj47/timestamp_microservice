@@ -9,4 +9,4 @@ var x = decodeURIComponent(req.path.substring(1));
 if(x!='')
 res.json(datemodule(x));
 });
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
